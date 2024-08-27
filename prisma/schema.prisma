@@ -35,6 +35,7 @@ model EventPeople {
   name     String
   cpf      String
   setor    String
+  chave    String
   metched  String     @default("")
   event    Event      @relation(fields: [id_event], references: [id])
   group    EventGroup @relation(fields: [id_group], references: [id])

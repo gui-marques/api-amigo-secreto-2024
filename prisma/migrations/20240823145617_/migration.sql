@@ -6,3 +6,5 @@
 */
 -- AlterTable
 ALTER TABLE "EventPeople" ADD COLUMN     "setor" TEXT NOT NULL;
+
+
