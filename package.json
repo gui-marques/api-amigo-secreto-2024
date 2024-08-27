@@ -9,7 +9,8 @@
     "build": "tsc",
     "start": "node build/server.js",
     "migrate:dev": "prisma migrate dev",
-    "migrate:deploy": "prisma migrate deploy"
+    "migrate:deploy": "prisma migrate deploy",
+    "vercel-build": "npx prisma migrate deploy"
   },
   "author": "Guilherme Marques",
   "license": "ISC",
