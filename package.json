@@ -6,11 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
-    "build": "prisma generate && tsc",  // <--- Adicionado prisma generate aqui
+    "build": "prisma generate && tsc",  
     "start": "node build/server.js",
     "migrate:dev": "prisma migrate dev",
     "migrate:deploy": "prisma migrate deploy",
-    "vercel-build": "npx prisma migrate deploy && prisma generate && tsc"  // <--- Modificado para incluir prisma generate
+    "vercel-build": "npx prisma migrate deploy && prisma generate && tsc" 
   },
   "author": "Guilherme Marques",
   "license": "ISC",
